@@ -438,7 +438,7 @@ font-size: 16px;
 line-height: 1.25;
 align-items: center;
 letter-spacing: 0.03em;
-padding-left: 16px;
+
 color: rgba(255, 255, 255, 0.6);
 
 }
@@ -449,6 +449,8 @@ color: rgba(255, 255, 255, 0.6);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: var(--bg-color);
+    padding-left: 16px;
+    color: var(--next-color);
 }
 .footer-btn-send{
     min-width: 200px;
@@ -459,25 +461,27 @@ color: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
+    margin-left: 12px;
+}
+.send-text{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    margin-left: 12px;
-    /* text-align: center;
-    
-     */
+       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
 }
 .send-text::after{
-    content:"";
-    display: inline-block;
+    content: url(../images/icon-send.svg);
+    
     width: 24px;
     height: 24px;
     margin-left: 10px;
-    border: 1px solid red;
-    
+       
 }
 .backdrop{
     position: fixed;
