@@ -645,7 +645,7 @@ margin-bottom: 12px;
     background-image: url(../images/iconcheck.svg);
     border: 2px solid var(--accent-color);
 }
-.checkbox-label{
+.modal-checkbox{
     text-align: center;
 }
 .modal-form-btn{
